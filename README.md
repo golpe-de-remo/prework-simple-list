@@ -39,6 +39,7 @@ git clone repo_url_given_by_github
 git checkout -b YOUR_NAME
 ``` 
 3.Do the task.
+
 4.Tell git which files to add or add all of them.
 ```
 git add -A
