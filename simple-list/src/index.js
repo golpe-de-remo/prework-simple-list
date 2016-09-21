@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-var developers = ["Lluc", "Juan", "Arslaan"];
-
 var NamesList = React.createClass({
 	render: function() {
 		return (
@@ -52,6 +50,8 @@ var App = React.createClass({
 		);
 	}
 });
+
+var developers = ["Lluc", "Juan", "Arslaan"];
 
 ReactDOM.render(
 	<App names={developers} />,
