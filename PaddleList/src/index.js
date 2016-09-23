@@ -14,7 +14,7 @@ var paddleList = paddleGuys.map(
 
 var assignPaddle = React.createClass({
 	scream: function () {
-		paddleGuy.push(paddleList.splice(Math.floor(Math.random() * paddleList.length)));
+		paddleGuy.push(paddleGuys.splice(Math.floor(Math.random() * paddleGuys.length)));
   },
 
 
